@@ -1,0 +1,97 @@
+:root {
+   --main: #26ca8e;
+}
+* {
+   padding: 0px;
+   margin: 0px;
+   font-family: 'Lexend', sans-serif;
+   box-sizing: border-box;
+}
+section {
+   height: 100vh;
+}
+.no-sh {
+   text-align: center; 
+}
+.top-side {
+   height: 40%;
+   background-color: var(--main);
+   padding: 8px;
+}
+.top-side .title {
+   color: #fff;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 500;
+   padding: 10px;
+}
+.top-side .add-field {
+   position: relative;
+   top: 15%;
+   display: flex;
+   justify-content: center;
+   margin: 5px 0px;
+   width: 100%;
+}
+.top-side .add-field input{
+   border: 1px solid var(--main);
+   font-size: 19px;
+   padding: 10px;
+   outline: none;
+   width: 500px;
+   border-bottom-left-radius: 8px;
+   border-top-left-radius: 8px;
+}
+.top-side .add-field button {
+   padding: 0px 15px;
+   font-size: 19px;
+   color: var(--main);
+   background-color: #fff;
+   border: 1px solid var(--main);
+   outline: none;
+   cursor: pointer;
+   border-bottom-right-radius: 8px;
+   border-top-right-radius: 8px;
+}
+
+.btm-side {
+   height: 60%;
+}
+.btm-side .list {
+   display: flex;
+   justify-content: center;
+   border-radius: 10px;
+   background-color: #fff;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+.btm-side ul {
+   width: 80%;
+   list-style: none;
+   padding: 10px 0px;
+}
+.btm-side ul li {
+   margin: 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.btm-side .list button {
+   background-color: #fa3361;
+   color: #FFF;
+   border: 1px solid #fa3361;
+   padding: 8px 15px;
+   border-radius: 6px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+   transition: .3s;
+}
+.btm-side .list button:hover {
+   background-color: #ff4d76;
+   border-color: #ff4d76;
+}
+.btm-side .list button i {
+   margin-right: 8px;
+   font-size: 16px;
+}
