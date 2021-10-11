@@ -62,7 +62,7 @@ section {
    justify-content: center;
    border-radius: 10px;
    background-color: #fff;
-   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .btm-side ul {
    width: 80%;
@@ -74,6 +74,7 @@ section {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 .btm-side .list button {
    background-color: #fa3361;
@@ -84,7 +85,7 @@ section {
    cursor: pointer;
    display: flex;
    align-items: center;
-   margin-left: 10px;
+   margin: 5px;
    transition: .3s;
 }
 .btm-side .list button:hover {
